@@ -1,5 +1,7 @@
 package com.example.mapnotifyapp.ui.home;
 
+import android.content.BroadcastReceiver;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.mapnotifyapp.R;
 import com.example.mapnotifyapp.databinding.FragmentHomeBinding;
 
 public class HomeFragment extends Fragment {
@@ -25,9 +28,23 @@ public class HomeFragment extends Fragment {
         View root = binding.getRoot();
 
         final TextView textView = binding.textHome;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        //homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        homeViewModel.getText().observe(getViewLifecycleOwner(), text -> {
+            updateTextView(textView, text);
+        });
+        BroadcastReceiver broadcastReceiver = homeViewModel.getBroadcastReceiver();
+        IntentFilter intentFilter = new IntentFilter("your_action_string");
+        getContext().registerReceiver(broadcastReceiver, intentFilter);
+
         return root;
     }
+
+    public void updateTextView(TextView textView, String text) {
+        //TextView textView = findViewById(R.id.text_home);
+        textView.setText(text);
+        textView.invalidate();
+    }
+
 
     @Override
     public void onDestroyView() {
