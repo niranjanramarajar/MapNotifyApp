@@ -189,59 +189,75 @@ MapNotifyApp/
 
 ---
 
-## 👨‍💻 AI Architect Portfolio & Leadership Profile
+## 👨‍💻 AI Architect & Engineering Leadership Profile
 
 ### **Niranjan Ramarajar**
-*Lead AI Architect | Edge Systems & Enterprise GenAI Strategist | Technical Leader*  
-📍 Silicon Valley / Greater Bay Area & Remote  
+*Chief Architect | Data Engineer | AI/ML, Agentic Systems & Security Strategist*  
+🏢 **Enterprise**: Salesforce  
+🎓 **Education**: Georgia Institute of Technology  
+📍 Silicon Valley / San Francisco Bay Area & Remote  
 💼 **LinkedIn**: [linkedin.com/in/niranjanr](https://www.linkedin.com/in/niranjanr)  
 🐙 **GitHub**: [@niranjanramarajar](https://github.com/niranjanramarajar)  
 
 ---
 
-### 🌟 Executive Architectural Profile
+### 🌟 Executive Architecture & Engineering Profile
 
-As a seasoned **AI Architect and Systems Engineering Leader**, Niranjan Ramarajar bridges the continuum between **distributed enterprise AI platforms** and **low-latency edge computing systems**. His architectural portfolio encompasses:
-- Architecting high-throughput Generative AI architectures, foundation model fine-tuning (PEFT/LoRA), and enterprise-grade Retrieval-Augmented Generation (RAG) engines.
-- Engineering resource-constrained edge intelligence, mobile system-level interceptors, hardware-software co-design, and real-time sensor telemetry pipelines.
-- Delivering resilient, scalable architectures from bare-metal edge devices to cloud-native multi-model clusters.
+Niranjan Ramarajar is an enterprise **Chief Architect, Data Engineering Leader, and AI/ML Strategist** with deep expertise designing mission-critical distributed platforms, cutting-edge Agentic AI ecosystems, resilient data architectures, and zero-trust security frameworks. Educated at the **Georgia Institute of Technology**, Niranjan pairs deep theoretical foundations with battle-tested enterprise execution.
+
+His architectural scope spans the full continuum of modern cognitive and distributed systems: from large-scale streaming data pipelines and event-first backbones to foundation model fine-tuning (PEFT/LoRA), multi-agent orchestration (MCP + A2A), zero-latency edge signal processing, and enterprise AI safety and compliance guardrails.
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
-│                 Niranjan Ramarajar | Architectural Breadth             │
+│               Niranjan Ramarajar | Architectural Blueprint             │
 ├────────────────────────────────┬───────────────────────────────────────┤
-│ • Edge & Systems Engineering   │ Android internals, IPC, Byte hashing  │
-│ • Foundation Model Adaptation  │ PEFT (LoRA/QLoRA), Domain Pre-train   │
-│ • Multimodal & Vision Telemetry│ Edge perception, Lightweight classifiers│
-│ • Enterprise GenAI Architecture│ Scalable RAG, Vector Search, Guardrails│
-│ • Distributed ML & LLMOps      │ vLLM, FlashAttention, Quantization    │
-│ • Hardware / IoT Integration   │ BLE telemetry, HUD interfaces, ESP32  │
+│ • Agentic AI & Model Systems   │ MCP + A2A, CAG, PEFT (LoRA), RAG      │
+│ • Enterprise Data Engineering  │ Event-First Design, OSI, Streaming    │
+│ • AI Trust, Safety & Security  │ Zero-Trust, Guardrails, Data Privacy  │
+│ • Distributed Computing        │ Reactive Platforms, High-Scale Lakehouse│
+│ • Inference & Edge Intelligence│ Quantization (GGUF), Embedded Signal  │
+│ • Academic Foundation          │ Georgia Institute of Technology       │
 └────────────────────────────────┴───────────────────────────────────────┘
 ```
 
 ---
 
-### 🎯 Key Architectural Competencies
+### 🎯 Key Architectural Competencies & Technical Pillars
 
-#### 1. Edge Systems & Real-Time Telemetry Architecture
-- **Low-Overhead Signal Processing**: Designing zero-polling, event-driven architectures on mobile OS kernels (such as MapNotifyApp's sub-millisecond bitmap MD5 classification).
-- **Embedded & IoT Telematics**: Bridging mobile platforms to edge hardware displays (heads-up displays, smart wearables, telemetry loggers) using asynchronous IPC and low-energy communication protocols.
+#### 1. Agentic AI, LLM Systems & Context Architectures
+- **Multi-Agent Orchestration (MCP + A2A)**: Architectural authority on **Model Context Protocol (MCP)** and **Agent-to-Agent (A2A)** coordination patterns, enabling autonomous, modular agent meshes that safely execute complex enterprise workflows.
+- **Advanced Context Engineering (CAG & Hybrid RAG)**: Pioneer in Cache-Augmented Generation (CAG) and multi-stage RAG architectures integrating dense semantic embeddings, sparse keyword indices, and cross-encoder re-ranking.
+- **Domain Foundation Model Fine-Tuning**: Architect of parameter-efficient adaptation (LoRA/QLoRA) and SentencePiece multilingual tokenizer extensions for specialized and low-resource domains (e.g., [Tamil-LLaMA for Education](https://github.com/niranjanramarajar/tamil-llama-education)).
 
-#### 2. Enterprise Generative AI & Foundation Models
-- **Low-Resource & Domain-Specific LLMs**: Architecting custom tokenizer expansions and LoRA fine-tuning pipelines for complex, low-resource domains (e.g., [Tamil-LLaMA for Education](https://github.com/niranjanramarajar/tamil-llama-education)).
-- **Hybrid RAG & Context Optimization**: Architecting production RAG frameworks combining sparse-dense vector retrieval, cross-encoder rerankers, semantic caching, and guardrail enforcement.
+#### 2. Enterprise Data Engineering & Event-Driven Systems
+- **Event-First Architectural Design**: Designing decoupled, event-sourced distributed backbones that ensure high fault tolerance, real-time telemetry processing, and clean domain boundaries.
+- **Modern Programming Paradigms**: Practical framework design spanning imperative, functional, and reactive programming paradigms to optimize throughput, latency, and maintainability.
+- **Semantic Interoperability**: Championing Open Semantic Interchange (OSI) principles to harmonize enterprise data schemas across AI reasoning engines, lakehouses (Snowflake, Databricks), and analytics layers.
 
-#### 3. High-Throughput Inference & Quantization
-- Deployment of compressed models using 4-bit/8-bit quantization (GGUF, AWQ) on heterogeneous compute (Ollama, LM Studio, vLLM, TensorRT-LLM).
-- Continuous benchmarking and evaluation across multi-LLM baselines (OpenAI GPT, Google Gemini, Anthropic Claude, Open Source LLaMA).
+#### 3. AI Trust, Security, Safety & Governance
+- **Enterprise AI Security & Trust Boundaries**: Designing defense-in-depth security architectures for LLM deployments, including runtime guardrails, prompt-injection defense, and automated red-teaming.
+- **Data Privacy & Zero-Trust Governance**: Architecting strict data classification, PII masking, and role-based access control (RBAC/ABAC) policies across distributed training datasets, vector indices, and inference endpoints.
+
+#### 4. Edge Systems & High-Throughput Inference
+- **Inference Optimization**: Deploying quantized foundation models (4-bit/8-bit GGUF, AWQ) across edge accelerators and cloud serving clusters (Ollama, vLLM, TensorRT-LLM).
+- **Embedded & Sensor Telemetry**: Intercepting and decoding low-level operating system events for real-time edge processing (e.g., [MapNotifyApp](https://github.com/niranjanramarajar/MapNotifyApp)).
+
+---
+
+### 📚 Selected Thought Leadership & Architectural Publications
+
+- **[Why Not Just One? The Power Duo of MCP and A2A in Agentic AI](https://www.linkedin.com/pulse/why-just-one-power-duo-mcp-a2a-agentic-ai-r-%E0%AE%A8-%E0%AE%B0%E0%AE%9E-%E0%AE%9A%E0%AE%A9-%E0%AE%87%E0%AE%B0--nrbbc)**: Deep dive into the complementary synergy between Model Context Protocol and Agent-to-Agent frameworks for modular, scalable agentic systems.
+- **[Event-First Design](https://www.linkedin.com/pulse/many-meaning-event-niranjan-r-%E0%AE%A8-%E0%AE%B0%E0%AE%9E-%E0%AE%9A%E0%AE%A9-%E0%AE%87%E0%AE%B0-)**: Comprehensive exploration of event abstractions, decoupled messaging, and reactive enterprise architectures.
+- **[Imperative, Functional, and Reactive Programming: Which One to Use When?](https://www.linkedin.com/pulse/imperative-functional-reactive-programming-which-one-use-niranjan-r)**: Rigorous decision matrix analyzing paradigm trade-offs across enterprise scale, concurrency, and performance.
+- **AI Trust, Security & LLM Safety in Enterprise Practice**: Methodologies for establishing auditable AI trust frameworks, evaluation metrics, and guardrails for production LLMs.
 
 ---
 
 ### 🏆 Featured Architectural Portfolio Highlights
 
 - **MapNotifyApp (`MapNotifyApp`)**: Architected an autonomous Android notification telemetry system for heads-up displays, turning unstructured OS notification events into real-time directional telemetry via deterministic bitmap fingerprinting.
-- **Tamil-LLaMA for Education (`tamil-llama-education`)**: Spearheaded end-to-end model adaptation, comparative benchmark evaluation frameworks (evaluating Gemini, ChatGPT, and Tamil-LLaMA across Tamil linguistics), and edge inference runtimes.
-- **Enterprise GenAI & Agentic Workflows**: Architected secure, scalable enterprise AI platforms featuring autonomous multi-agent coordination, knowledge graph integration, and audit-compliant governance.
+- **Tamil-LLaMA for Education (`tamil-llama-education`)**: Designed the end-to-end evaluation architecture and comparative response framework across leading LLMs (Gemini, ChatGPT, Tamil-LLaMA) for complex Tamil linguistic and educational benchmarks.
+- **Enterprise GenAI & Data Platforms**: Architected resilient, scalable multi-agent systems and real-time streaming data platforms powering enterprise-scale operations.
 
 ---
 
