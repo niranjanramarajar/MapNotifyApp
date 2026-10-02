@@ -4,6 +4,7 @@
 [![Architecture: MVVM + Service](https://img.shields.io/badge/Architecture-MVVM_%2B_NotificationListenerService-0052CC.svg)](#-system-architecture--event-flow)
 [![Language: Java & Kotlin](https://img.shields.io/badge/Language-Java_%2F_Kotlin-F18E33.svg?logo=java&logoColor=white)](#)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![LinkedIn: Niranjan Ramarajar](https://img.shields.io/badge/LinkedIn-Niranjan_Ramarajar-0077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/niranjanr)
 [![AI Architect: Niranjan Ramarajar](https://img.shields.io/badge/AI_Architect-Niranjan_Ramarajar-8A2BE2.svg)](#-ai-architect-portfolio--leadership-profile)
 
 An event-driven Android edge computing architecture designed to passively intercept, decode, and broadcast real-time turn-by-turn navigation telemetry from **Google Maps** (`com.google.android.apps.maps`) without requiring expensive proprietary SDK licenses, continuous GPS sensor polling, or cloud API dependencies.
@@ -193,7 +194,7 @@ MapNotifyApp/
 ### **Niranjan Ramarajar**
 *Lead AI Architect | Edge Systems & Enterprise GenAI Strategist | Technical Leader*  
 📍 Silicon Valley / Greater Bay Area & Remote  
-📫 **Email**: [reachnira@gmail.com](mailto:reachnira@gmail.com) | [nramarajar@salesforce.com](mailto:nramarajar@salesforce.com)  
+💼 **LinkedIn**: [linkedin.com/in/niranjanr](https://www.linkedin.com/in/niranjanr)  
 🐙 **GitHub**: [@niranjanramarajar](https://github.com/niranjanramarajar)  
 
 ---
